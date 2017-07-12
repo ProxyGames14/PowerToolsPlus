@@ -1,0 +1,10 @@
+name: PowerToolsPlus
+version: 1.0.1
+author: ProxyGames
+main: me.proxygames.powertool.main
+commands:
+    powertool:
+          description: /powertool help
+          aliases: [pt, tool]
+
+

@@ -1,0 +1,42 @@
+# PLUGIN POWERTOOLPLUS V1.0.1
+# MADE BY PROXYGAMES14
+# https://dev.bukkit.org/projects/powertoolplus
+
+# Permissions:
+# powertoolplus.command
+# powertoolplus.command.reload
+# powertoolplus.command.help
+# powertoolplus.command.clear
+# powertoolplus.command.add
+# powertoolplus.command.reset
+# powertoolplus.command.right.click
+# powertoolplus.command.shift.right.click
+# powertoolplus.command.left.click
+# powertoolplus.command.shift.left.click
+# powertoolplus.command.checkupdates
+# powertoolplus.update.checker
+
+# PlaceHolders:
+# %player%
+# %ip%
+# %health%
+# %food%
+# %world%
+# %level%
+# %xp%
+# %uuid%
+# %x%
+# %y%
+# %z%
+# %gamemode%
+# %online%
+# %displayname%
+
+# Color support
+# PlaceHolderAPI Support
+# https://www.spigotmc.org/wiki/placeholderapi-placeholders/
+
+
+UpdateChecker: true
+DisableBlockToolGrief: true
+NoPermissions: "&cSorry you dont have that permission! You need &e%permission%"
