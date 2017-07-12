@@ -1,1 +1,9 @@
-
+op:/<command>
+cmd:/<command>
+console:/<command>
+player:(<player>)/<command>
+playerop:(<player>)/<command>
+bc:<text>
+world:<world>
+text:<text>
+<text>
