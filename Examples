@@ -1,9 +1,9 @@
-op:/<command>
-cmd:/<command>
-console:/<command>
-player:(<player>)/<command>
-playerop:(<player>)/<command>
-bc:<text>
-world:<world>
-text:<text>
-<text>
+op:/<command>   (example:" op:/say hi ")
+cmd:/<command> (example:" cmd:/say hi ")
+console:/<command>   (example:" console:/say hey ")
+player:(<player>)/<command> (example:" player:(player234)/say hi ")
+playerop:(<player>)/<command> (example:" playerop:(player463)/say hey ")
+bc:<text>  (example:" bc:Hello everyone ")
+world:<world> (example:" world:spawn ")
+text:<text> (example:" text: omg ")
+<text> (example: hello"
