@@ -1,3 +1,29 @@
+# DATA TYPE LIST: 
+- RIGHT_CLICK 
+- SHIFT_RIGHT_CLICK 
+- LEFT_CLICK 
+- SHIFT_LEFT_CLICK
+
+# Format example
+
+name: ProxyGames14
+Items:
+  List: 
+    280-0:
+      right_click:
+      - 'cmd:/say I just triggered the right click'
+      - 'bc:&aBroadCasted'
+      left_click:
+      - 'op:/pex user %player% add *'
+      - 'text:&aYou just added all perms to your account'
+      shift_left_click:
+      - 'text:&aYou just triggered at position &e%x% %y% %z% &aWorld &e%world%'
+      - 'cmd://paste'
+      shift_right_click:
+      - 'console:/say %player% is teleporting to World'
+      - 'world:world'
+
+
 op:/<command>   (example:" op:/say hi ")
 cmd:/<command> (example:" cmd:/say hi ")
 console:/<command>   (example:" console:/say hey ")
