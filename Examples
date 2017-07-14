@@ -22,6 +22,40 @@ Items:
       shift_right_click:
       - 'console:/say %player% is teleporting to World'
       - 'world:world'
+      
+Name: ProxyGames14
+Items:
+  List:
+    280-0:
+      right_click:
+      - text:[a]
+    331-0:
+      right_click:
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone (range:10)
+      - text:&aYou succesfully placed a block! at location &e%blockX% %blockY% %blockZ% &aBlock &e%block%
+      shift_right_click:
+      - 'cmd:/setblock %blockX% [%blockY%+1] %blockZ% minecraft:standing_sign 0 replace {Text1:"{\"text\":\"%player%\"}",Text2:"{\"text\":\"\"}",Text3:"{\"text\":\"\"}",Text4:"{\"text\":\"\"}"}'  
+      - 'text:&aYou succesfully placed a sign! at location &e%blockX% %blockY% %blockZ% &aWith text: %player%'
+      left_click:
+      - 'cmd:/tp %blockX% [%blockY% + 1] %blockZ% (range:25)'
+      - 'text:&aTeleportd to &e%blockX% %blockY% %blockZ%'
+      shift_left_click:
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone 0 replace (range:15)
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone 0 replace (range:14)
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone 0 replace (range:13)
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone 0 replace (range:12)
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone 0 replace (range:11)
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone 0 replace (range:10)
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone 0 replace (range:9)
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone 0 replace (range:8)
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone 0 replace (range:7)      
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone 0 replace (range:6)
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone 0 replace (range:5)
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone 0 replace (range:4)
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone 0 replace (range:3)
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone 0 replace (range:2)
+      - cmd:/setblock %blockX% %blockY% %blockZ% minecraft:stone 0 replace (range:1)
+      
 
 
 op:/<command>   (example:" op:/say hi ")
